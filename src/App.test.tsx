@@ -65,7 +65,6 @@ describe('Next Generation', () => {
       [0, 0, 0, 0, 0],
       [0, 0, 0, 0, 0],
     ];
-    console.log(generateNextState(testData))
     expect(generateNextState(testData)).toEqual(expectResult);
   })
 })

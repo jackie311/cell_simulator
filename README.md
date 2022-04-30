@@ -1,5 +1,5 @@
 # Cell Simulator
-**This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Cell Simulator by creating an initial configuration and observing how it evolves.
 
@@ -31,3 +31,5 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 -	User can unclick a Cell to make it "dead".
 -	User can click a `Next Generation` button to trigger "next generation".
 -	User can click a `reset` button to the initial state.
+
+![image](https://github.com/jackie311/cell_simulator/blob/master/demo.gif)

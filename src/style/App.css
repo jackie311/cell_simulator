@@ -1,0 +1,10 @@
+#root{
+  margin: 0;padding: 0;width: 100%;height: 100%;background:#7bb7aa;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(hsla(0, 73%, 53%, 0.1) 1px, transparent 0), linear-gradient(90deg, hsla(0, 75%, 23%, 0.1) 10%, transparent 0);
+  background-size: 30px 30px, 30px 30px;
+}

@@ -1,0 +1,42 @@
+.Modal {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  width: 60%;
+  min-height: 50%;
+  max-height: 70%;
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.Modal--Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #232834;
+}
+
+.Modal--content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px rgba(#fff, 0.1) solid;
+}
+.Modal--block {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 3px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #748399;
+}
+
+.Modal--block.active {
+  background-color: #01d1ff;
+}

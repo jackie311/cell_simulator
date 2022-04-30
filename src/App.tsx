@@ -1,9 +1,7 @@
 import './style/App.css';
 import './style/Modal.css'
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Modal from 'react-modal';
 import Board from './Board';
+import Modal from 'react-modal';
 
 function App() {
   return (

@@ -1,10 +1,8 @@
 .Modal {
   position: absolute;
-  top: 15%;
-  left: 30%;
+  top: 10%;
+  left: 25%;
   width: auto;
-  min-height: 50%;
-  max-height: 70%;
   overflow-y: auto;
   background-color: rgba(255, 255, 255, 0.05);
 }
@@ -18,16 +16,16 @@
   background-color: #232834;
 }
 
-.Modal--content {
+.Board--content {
   display: flex;
   flex-wrap: wrap;
   justify-content: stretch;
   margin: 0.5rem;
   border-bottom: 1px rgba(#fff, 0.1) solid;
 }
-.Modal--block {
-  width: 20px;
-  height: 20px;
+.Board--block {
+  width: 1.5rem;
+  height: 1.5rem;
   margin-right: 0.1rem;
   margin-bottom: 0.5rem;
   border-radius: 3px;
@@ -37,7 +35,7 @@
   border: 1px solid #748399;
 }
 
-.Modal--block.active {
+.Board--block.active {
   background-color: #01d1ff;
 }
 
@@ -47,10 +45,17 @@
   justify-content: space-around;
 }
 
+.Board {
+  margin: 1.5rem
+}
+
 .button {
+  border: none;
   color: #fff;
   cursor: pointer;
+  outline: 0 none;
   font-size: 1rem;
   border-radius: 5px;
+  padding: 0.5rem 1rem;
   background-color: #27bd86;
 }
